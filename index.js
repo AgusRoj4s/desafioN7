@@ -40,7 +40,7 @@ app.get('/item-random', (req, res) => {
     }
 });
 
-app.get('/', (req, res) => {
+app.get('/visitas', (req, res) => {
     console.log('request recibido!');
     res.send({ visitas: `{ items:${visitas1}, item:${visitas2} }` });
 });
